@@ -1,0 +1,26 @@
+{
+    "env": {
+        "es2021": true,
+        "node": true,
+        "jest": true
+    },
+    "extends": [
+        "airbnb-base"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "@typescript-eslint"
+    ],
+    "rules": {
+        "no-use-before-define": "off",
+        "indent": ["error", 4],
+        "lines-between-class-members": "off",
+        "arrow-body-style": ["error", "always"],
+        "import/no-unresolved": "off",
+        "import/extensions": "off"
+    }
+}
